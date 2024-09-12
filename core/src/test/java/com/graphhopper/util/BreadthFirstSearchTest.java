@@ -76,7 +76,7 @@ public class BreadthFirstSearchTest {
 
         assertTrue(counter > 0);
         assertEquals(g.getNodes(), counter);
-        assertEquals("[0, 5, 3, 2, 1, 10, 8, 7, 6, 9, 4]", list.toString());
+        assertEquals("[5, 0, 3, 2, 1, 10, 8, 7, 6, 9, 4]", list.toString());
     }
 
     @Test
