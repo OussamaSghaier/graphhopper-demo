@@ -27,6 +27,7 @@ import com.graphhopper.coll.GHBitSet;
 public abstract class BreadthFirstSearch extends XFirstSearch {
     @Override
     public void start(EdgeExplorer explorer, int startNode) {
+        System.out.println("BreadthFirstSearch.start");
         SimpleIntDeque fifo = new SimpleIntDeque();
         GHBitSet visited = createBitSet();
         visited.add(startNode);
